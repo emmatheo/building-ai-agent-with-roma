@@ -31,3 +31,12 @@ git clone https://github.com/sentient-agi/ROMA.git
 cd ROMA
 t-with-roma
 Beginner-friendly tutorial on building your first AI agent using ROMA
+./setup.sh --docker
+cd docker
+docker compose up -d
+Open in Browser
+
+Go to:
+👉 http://localhost:3000
+
+You should now see the ROMA dashboard running locally.
